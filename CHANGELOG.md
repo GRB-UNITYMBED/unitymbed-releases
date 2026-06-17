@@ -1,5 +1,12 @@
 # Revisions
 
+## v0.1.7 — Windows first release
+- First **Windows** build — self-contained NSIS installer (`UnityMbed_0.1.7_x64-setup.exe`),
+  per-user install, no admin required.
+- Bundled Arm GCC toolchain, OpenOCD, `make` and `gdb` — nothing else to install.
+- Flashing needs a CMSIS-DAP / DAPLink probe.
+- Updates are manual for now (re-download to update).
+
 ## v0.1.6 — macOS + Linux
 - Build console scrolls properly and can be resized (drag the top edge).
 - Copy button for the build output.
