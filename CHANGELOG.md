@@ -1,5 +1,13 @@
 # Revisions
 
+## v0.1.8 — Windows
+- **Serial Plotter** — real-time oscilloscope window, opened from the Serial Monitor
+  (previously macOS/Linux only).
+- Plotter-open failures now show in the monitor error bar instead of failing silently.
+- Projects created by older UnityMbed versions (manifest without a top-level `mcu`)
+  now open with a one-click manifest update instead of a parse error.
+- Legal pages render markdown properly.
+
 ## v0.1.7 — Windows first release
 - First **Windows** build — self-contained NSIS installer (`UnityMbed_0.1.7_x64-setup.exe`),
   per-user install, no admin required.
