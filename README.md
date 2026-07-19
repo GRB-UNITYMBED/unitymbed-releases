@@ -8,17 +8,14 @@ are bundled — one download, nothing else to install.
 
 ---
 
-## ⬇️ Download — latest **v0.1.8** (Windows) · **v0.1.7** (macOS)
+## ⬇️ Download — latest **v0.1.9** (macOS) · **v0.1.8** (Windows)
 
 ### 🍎 macOS — Apple Silicon (M1 / M2 / M3 / M4)
-**[UnityMbed_0.1.7_aarch64.dmg](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.7/UnityMbed_0.1.7_aarch64.dmg)** · ~249 MB
+**[UnityMbed_0.1.9_aarch64.dmg](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.9/UnityMbed_0.1.9_aarch64.dmg)** · ~250 MB
 
-Open the `.dmg`, drag **UnityMbed** to Applications. Not notarized yet, so on the first
-launch run this once in Terminal:
-```
-xattr -dr com.apple.quarantine /Applications/UnityMbed.app
-```
-After that the app keeps itself up to date automatically.
+Open the `.dmg`, drag **UnityMbed** to Applications, and launch — the app is
+**signed & notarized by Apple**, so it opens right away (no Terminal steps).
+It keeps itself up to date automatically.
 
 ### 🐧 Linux — Ubuntu 22.04+ / Debian (x86_64)
 **[UnityMbed_0.1.6_amd64.deb](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.6/UnityMbed_0.1.6_amd64.deb)** · ~216 MB
@@ -41,6 +38,11 @@ Run the installer — installs per-user, no admin required. The Arm GCC toolchai
 ## 📋 Revisions
 
 Full history on the **[Releases page](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases)** · summary in [CHANGELOG.md](CHANGELOG.md).
+
+**v0.1.9** — 🍎 macOS: **signed & notarized** (opens with no Terminal steps) · first-run
+**consent gate** (EULA · privacy · hardware-safety · AI-usage & generated-code
+disclaimer) · license auto-sync (logging in also activates the CLI — Check hardware
+works out of the box) · Check-hardware reliability fixes · dark-theme contrast fixes.
 
 **v0.1.8** — 🪟 Windows: **Serial Plotter** (real-time oscilloscope window), and
 old-format projects now open with a one-click manifest update.
