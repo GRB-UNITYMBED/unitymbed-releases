@@ -8,7 +8,7 @@ are bundled — one download, nothing else to install.
 
 ---
 
-## ⬇️ Download — latest **v0.1.9** (macOS) · **v0.1.8** (Windows)
+## ⬇️ Download — latest **v0.1.9** (macOS) · **v0.1.22** (Windows)
 
 ### 🍎 macOS — Apple Silicon (M1 / M2 / M3 / M4)
 **[UnityMbed_0.1.9_aarch64.dmg](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.9/UnityMbed_0.1.9_aarch64.dmg)** · ~250 MB
@@ -26,7 +26,7 @@ Dependencies and USB-probe access are configured automatically. Launch **UnityMb
 from the application menu.
 
 ### 🪟 Windows 10 / 11 (x64)
-**[UnityMbed_0.1.8_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.8/UnityMbed_0.1.8_x64-setup.exe)** · ~69 MB
+**[UnityMbed_0.1.22_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.22/UnityMbed_0.1.22_x64-setup.exe)** · ~71 MB
 
 Run the installer — installs per-user, no admin required. The Arm GCC toolchain, OpenOCD,
 `make` and `gdb` are bundled. To flash hardware you need a CMSIS-DAP / DAPLink probe.
@@ -38,6 +38,12 @@ Run the installer — installs per-user, no admin required. The Arm GCC toolchai
 ## 📋 Revisions
 
 Full history on the **[Releases page](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases)** · summary in [CHANGELOG.md](CHANGELOG.md).
+
+**v0.1.22** — 🪟 Windows, for the current test group: sign-in, plans, licences and AI
+run on the new billing service in **test mode** (invited test accounts only; building,
+flashing and debugging work for everyone) · STM32 flashes with xPack OpenOCD 0.12.0-7 ·
+N32G031 project examples · export a project bundle, add folders, click a GCC error to jump
+to the line · the installer stops OpenOCD, GDB and make before an upgrade.
 
 **v0.1.9** — 🍎 macOS: **signed & notarized** (opens with no Terminal steps) · first-run
 **consent gate** (EULA · privacy · hardware-safety · AI-usage & generated-code
