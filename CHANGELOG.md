@@ -1,5 +1,16 @@
 # Revisions
 
+## v0.1.22 — Windows (test group)
+- Sign-in, plans, licences and AI run on the new billing service in **test mode**
+  (Stripe Test). They work for invited test accounts only; other accounts see
+  "Your test access has ended." Building, flashing and debugging work for everyone.
+- STM32 boards on Windows flash with xPack OpenOCD 0.12.0-7, and older ST-Link (HLA)
+  projects no longer fail on `reset_config` (re-create them or run `unitymbed detect --apply`).
+- Project examples for N32G031 (6 examples with icons); N32G45x boards start from a blank project.
+- Export a project bundle, add folders from the file tree, and click a GCC error to jump to the line.
+- The installer stops OpenOCD, GDB and make inside the install folder before an upgrade or uninstall.
+- SHA-256 `10a28a7e3d9c9b10854243796c5c9d69e591fd37c6ff6d17217cd89572f24c6f`.
+
 ## v0.1.8 — Windows
 - **Serial Plotter** — real-time oscilloscope window, opened from the Serial Monitor
   (previously macOS/Linux only).
