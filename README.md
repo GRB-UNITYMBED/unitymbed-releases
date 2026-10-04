@@ -26,7 +26,7 @@ Dependencies and USB-probe access are configured automatically. Launch **UnityMb
 from the application menu.
 
 ### 🪟 Windows 10 / 11 (x64)
-**[UnityMbed_0.1.22_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.22/UnityMbed_0.1.22_x64-setup.exe)** · ~71 MB
+**[UnityMbed_0.1.23_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.23/UnityMbed_0.1.23_x64-setup.exe)** · ~72 MB
 
 Run the installer — installs per-user, no admin required. The Arm GCC toolchain, OpenOCD,
 `make` and `gdb` are bundled. To flash hardware you need a CMSIS-DAP / DAPLink probe.
@@ -38,6 +38,12 @@ Run the installer — installs per-user, no admin required. The Arm GCC toolchai
 ## 📋 Revisions
 
 Full history on the **[Releases page](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases)** · summary in [CHANGELOG.md](CHANGELOG.md).
+
+**v0.1.23** — 🪟 Windows, for the current test group: new look across the app in light
+and dark · sign-in asks for the Terms, Privacy Policy and an 18+ confirmation (the legal
+texts are the draft under legal review, marked "Beta draft") · a one-time notice before
+the first AI request, with switches for the automatic AI features · credits refill on
+the plan's renewal date · billing still in **test mode** · no crash reports.
 
 **v0.1.22** — 🪟 Windows, for the current test group: sign-in, plans, licences and AI
 run on the new billing service in **test mode** (invited test accounts only; building,

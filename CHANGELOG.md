@@ -1,5 +1,21 @@
 # Revisions
 
+## v0.1.23 — Windows (test group)
+- New look across the app (Projects, editor, dialogs and panels) in light and dark; the dark
+  editor matches the app, and Thai text uses IBM Plex Sans Thai.
+- File and Help menus in the title bar, dialogs that fit the 960×600 minimum window, and an
+  editor that works offline.
+- Sign-in asks you to agree to the Terms of Service and Privacy Policy and to confirm you are
+  18 or older; the Terms changed, so you are asked again at your next sign-in. The legal texts
+  in the app and the installer are the draft under legal review, marked "Beta draft".
+- A one-time notice before the first AI request shows what is sent to Google Gemini, with
+  switches for inline completion and automatic debug analysis (Help > AI data & settings).
+- Monthly credits refill on the plan's renewal date; an upgrade adds the prorated difference.
+  Plan changes on the account page show the exact price first, and Keep plan undoes a
+  scheduled downgrade. Billing stays in **test mode** (Stripe Test).
+- This build sends no crash reports.
+- SHA-256 `aca563f4d15b769a23d43baaec3ad2d1cf8f9b715bdec3725b1df273c2fbb510`.
+
 ## v0.1.22 — Windows (test group)
 - Sign-in, plans, licences and AI run on the new billing service in **test mode**
   (Stripe Test). They work for invited test accounts only; other accounts see
