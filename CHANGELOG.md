@@ -1,5 +1,17 @@
 # Revisions
 
+## v0.1.24 — Windows (test group)
+- Replaces every earlier Windows build; older installers are no longer offered.
+- Plan changes made on the website reach the app while you are signed in: the plan name and
+  the AI models follow an upgrade or a downgrade, and a plan bought on the website while the
+  app is open on Free switches it without entering a key.
+- Sign-in lasts 30 days from your last use (at most 90) instead of 30 minutes; when it ends,
+  the app says so once. Your computers and Manage billing work again.
+- Manage billing opens your account page (change or cancel the plan, Keep plan, update the card).
+- The find bar (Ctrl+F) closes with its X button; Compare plans opens the pricing section.
+- The installer includes the licence texts and third-party notices. Billing stays in
+  **test mode** (Stripe Test). No crash reports.
+
 ## v0.1.23 — Windows (test group)
 - New look across the app (Projects, editor, dialogs and panels) in light and dark; the dark
   editor matches the app, and Thai text uses IBM Plex Sans Thai.

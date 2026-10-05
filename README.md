@@ -8,7 +8,7 @@ are bundled — one download, nothing else to install.
 
 ---
 
-## ⬇️ Download — latest **v0.1.9** (macOS) · **v0.1.22** (Windows)
+## ⬇️ Download — latest **v0.1.9** (macOS) · **v0.1.24** (Windows)
 
 ### 🍎 macOS — Apple Silicon (M1 / M2 / M3 / M4)
 **[UnityMbed_0.1.9_aarch64.dmg](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.9/UnityMbed_0.1.9_aarch64.dmg)** · ~250 MB
@@ -18,15 +18,15 @@ Open the `.dmg`, drag **UnityMbed** to Applications, and launch — the app is
 It keeps itself up to date automatically.
 
 ### 🐧 Linux — Ubuntu 22.04+ / Debian (x86_64)
-**[UnityMbed_0.1.6_amd64.deb](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.6/UnityMbed_0.1.6_amd64.deb)** · ~216 MB
+**[UnityMbed_0.1.9_amd64.deb](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.9/UnityMbed_0.1.9_amd64.deb)** · ~216 MB
 ```
-sudo apt install ./UnityMbed_0.1.6_amd64.deb
+sudo apt install ./UnityMbed_0.1.9_amd64.deb
 ```
 Dependencies and USB-probe access are configured automatically. Launch **UnityMbed**
 from the application menu.
 
 ### 🪟 Windows 10 / 11 (x64)
-**[UnityMbed_0.1.23_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.23/UnityMbed_0.1.23_x64-setup.exe)** · ~72 MB
+**[UnityMbed_0.1.24_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.24/UnityMbed_0.1.24_x64-setup.exe)** · ~72 MB
 
 Run the installer — installs per-user, no admin required. The Arm GCC toolchain, OpenOCD,
 `make` and `gdb` are bundled. To flash hardware you need a CMSIS-DAP / DAPLink probe.
@@ -38,6 +38,11 @@ Run the installer — installs per-user, no admin required. The Arm GCC toolchai
 ## 📋 Revisions
 
 Full history on the **[Releases page](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases)** · summary in [CHANGELOG.md](CHANGELOG.md).
+
+**v0.1.24** — 🪟 Windows, for the current test group, replacing every earlier Windows build:
+plan changes on the website reach the app while you are signed in · sign-in lasts 30 days
+from last use instead of 30 minutes · Manage billing opens your account page · the Ctrl+F
+close button works · Compare plans opens the pricing section · billing still in **test mode**.
 
 **v0.1.23** — 🪟 Windows, for the current test group: new look across the app in light
 and dark · sign-in asks for the Terms, Privacy Policy and an 18+ confirmation (the legal
