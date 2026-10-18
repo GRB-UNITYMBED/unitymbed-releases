@@ -1,5 +1,25 @@
 # Revisions
 
+## v0.1.26 — Windows, macOS and Linux
+- Windows: the app updates itself. When a newer version is out, it asks at launch, downloads
+  and installs it. 0.1.25 and older cannot update themselves: install 0.1.26 once by hand.
+- Closing the app also stops the local server and any build or debug tool it started.
+- Linux (Ubuntu 22.04+ / Debian, x86_64): the first release since 0.1.9, built from the same
+  source as Windows, including sign-in and plans on the new billing service. Same Arm GCC
+  14.2.1 and `make` as Windows; flashing uses xPack OpenOCD 0.12.0-7. Updates are manual.
+- macOS (Apple Silicon, macOS 13 or later): built from the same source.
+- The third-party notices name the bundled fonts correctly. No crash reports.
+- SHA-256 `UnityMbed_0.1.26_x64-setup.exe`: `96ab91baff0925c9bcff997e42a514f07d7ba251058428425e351af2863965ec`.
+- SHA-256 `UnityMbed_0.1.26_amd64.deb`: `9ad14e8071dba1fd7f4af19e1f58e20c4bdf3c58e4f060fd8a3b89d6c72c4a9f`.
+
+## v0.1.25 — Windows
+- Replaces every earlier Windows build, including the 0.1.24 test build.
+- Billing runs on the new UnityMbed billing service. Sign in with your email to get your plan;
+  existing licences, devices and usage carry over.
+- Each screen shows one renewal date for a paid plan.
+- Building, flashing and debugging work for everyone. No crash reports.
+- SHA-256 `09dd180e0792e83f6c4b97dbd2a509b8e8859e09f0b58fdfe798bafec833d902`.
+
 ## v0.1.24 — Windows (test group)
 - Replaces every earlier Windows build; older installers are no longer offered.
 - Plan changes made on the website reach the app while you are signed in: the plan name and

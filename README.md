@@ -8,36 +8,43 @@ are bundled — one download, nothing else to install.
 
 ---
 
-## ⬇️ Download — latest **v0.1.9** (macOS) · **v0.1.24** (Windows)
-
-### 🍎 macOS — Apple Silicon (M1 / M2 / M3 / M4)
-**[UnityMbed_0.1.9_aarch64.dmg](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.9/UnityMbed_0.1.9_aarch64.dmg)** · ~250 MB
-
-Open the `.dmg`, drag **UnityMbed** to Applications, and launch — the app is
-**signed & notarized by Apple**, so it opens right away (no Terminal steps).
-It keeps itself up to date automatically.
-
-### 🐧 Linux — Ubuntu 22.04+ / Debian (x86_64)
-**[UnityMbed_0.1.9_amd64.deb](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.9/UnityMbed_0.1.9_amd64.deb)** · ~216 MB
-```
-sudo apt install ./UnityMbed_0.1.9_amd64.deb
-```
-Dependencies and USB-probe access are configured automatically. Launch **UnityMbed**
-from the application menu.
+## ⬇️ Download — latest **v0.1.26** (Windows · macOS · Linux)
 
 ### 🪟 Windows 10 / 11 (x64)
-**[UnityMbed_0.1.24_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.24/UnityMbed_0.1.24_x64-setup.exe)** · ~72 MB
+**[UnityMbed_0.1.26_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.26/UnityMbed_0.1.26_x64-setup.exe)** · ~80 MB
 
 Run the installer — installs per-user, no admin required. The Arm GCC toolchain, OpenOCD,
 `make` and `gdb` are bundled. To flash hardware you need a CMSIS-DAP / DAPLink probe.
 
-> Updates are manual for now — re-download this page to get a newer version.
+> From 0.1.26 the app updates itself. 0.1.25 and older cannot: install 0.1.26 from this page once.
+
+### 🍎 macOS — Apple Silicon (M1 / M2 / M3 / M4), macOS 13 or later
+**[UnityMbed_0.1.26_aarch64.dmg](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.26/UnityMbed_0.1.26_aarch64.dmg)** · ~336 MB
+
+Open the `.dmg`, drag **UnityMbed** to Applications, and launch.
+
+### 🐧 Linux — Ubuntu 22.04+ / Debian (x86_64)
+**[UnityMbed_0.1.26_amd64.deb](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.26/UnityMbed_0.1.26_amd64.deb)** · ~331 MB
+```
+sudo apt install ./UnityMbed_0.1.26_amd64.deb
+```
+Dependencies and USB-probe access are configured automatically. Launch **UnityMbed**
+from the application menu. Updates on Linux are manual: install the new `.deb` over the old one.
 
 ---
 
 ## 📋 Revisions
 
 Full history on the **[Releases page](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases)** · summary in [CHANGELOG.md](CHANGELOG.md).
+
+**v0.1.26** — 🪟 🍎 🐧 all three: Windows updates itself from now on (0.1.25 and older
+install 0.1.26 once by hand) · closing the app also stops the local server and any build or
+debug tool it started · first Linux release since 0.1.9, same Arm GCC 14.2.1 and `make` as
+Windows · no crash reports.
+
+**v0.1.25** — 🪟 Windows: billing runs on the new UnityMbed billing service (sign in with
+your email; licences, devices and usage carry over) · one renewal date per paid plan ·
+replaces the 0.1.24 test build.
 
 **v0.1.24** — 🪟 Windows, for the current test group, replacing every earlier Windows build:
 plan changes on the website reach the app while you are signed in · sign-in lasts 30 days
