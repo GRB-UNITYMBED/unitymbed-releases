@@ -1,5 +1,19 @@
 # Revisions
 
+## v0.1.27 — Windows and Linux
+- Faster editor: typing no longer stalls on large projects; less CPU when idle.
+- STM32: New project offers a Blank project only; pick or type the chip instead of
+  auto-detect. A missing ST-Link driver message links to ST's STSW-LINK009 download.
+- Welcome tour on the Projects page and one-time Editor tips.
+- Sign in turns into the account menu right away; Your computers shows each computer's name.
+- AI chat treats the open file as the source of truth.
+- Thin hover-only tab scrollbar; the mouse wheel scrolls the tabs. Icons instead of emoji.
+- Windows: updates arrive in the app from 0.1.26. File access stays inside the project
+  folder; build and debug tools stop with the app even after a crash.
+- macOS stays on 0.1.26 for now.
+- SHA-256 `UnityMbed_0.1.27_x64-setup.exe`: `acde3c0c59e6d9a2106677656cb8f87a05f4ba47464237ad2cc81deab789f5a2`.
+- SHA-256 `UnityMbed_0.1.27_amd64.deb`: `d3c1aedde88d0a4f0a0a987d139b4a45f26efd7dcd65539753c72fe5d6f7fd25`.
+
 ## v0.1.26 — Windows, macOS and Linux
 - Windows: the app updates itself. When a newer version is out, it asks at launch, downloads
   and installs it. 0.1.25 and older cannot update themselves: install 0.1.26 once by hand.

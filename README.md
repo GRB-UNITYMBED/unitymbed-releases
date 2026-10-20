@@ -8,10 +8,10 @@ are bundled — one download, nothing else to install.
 
 ---
 
-## ⬇️ Download — latest **v0.1.26** (Windows · macOS · Linux)
+## ⬇️ Download — latest **v0.1.27** (Windows · Linux; macOS stays on v0.1.26 for now)
 
 ### 🪟 Windows 10 / 11 (x64)
-**[UnityMbed_0.1.26_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.26/UnityMbed_0.1.26_x64-setup.exe)** · ~80 MB
+**[UnityMbed_0.1.27_x64-setup.exe](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.27/UnityMbed_0.1.27_x64-setup.exe)** · ~80 MB
 
 Run the installer — installs per-user, no admin required. The Arm GCC toolchain, OpenOCD,
 `make` and `gdb` are bundled. To flash hardware you need a CMSIS-DAP / DAPLink probe.
@@ -24,9 +24,9 @@ Run the installer — installs per-user, no admin required. The Arm GCC toolchai
 Open the `.dmg`, drag **UnityMbed** to Applications, and launch.
 
 ### 🐧 Linux — Ubuntu 22.04+ / Debian (x86_64)
-**[UnityMbed_0.1.26_amd64.deb](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.26/UnityMbed_0.1.26_amd64.deb)** · ~331 MB
+**[UnityMbed_0.1.27_amd64.deb](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases/download/v0.1.27/UnityMbed_0.1.27_amd64.deb)** · ~331 MB
 ```
-sudo apt install ./UnityMbed_0.1.26_amd64.deb
+sudo apt install ./UnityMbed_0.1.27_amd64.deb
 ```
 Dependencies and USB-probe access are configured automatically. Launch **UnityMbed**
 from the application menu. Updates on Linux are manual: install the new `.deb` over the old one.
@@ -36,6 +36,11 @@ from the application menu. Updates on Linux are manual: install the new `.deb` o
 ## 📋 Revisions
 
 Full history on the **[Releases page](https://github.com/GRB-UNITYMBED/unitymbed-releases/releases)** · summary in [CHANGELOG.md](CHANGELOG.md).
+
+**v0.1.27** — 🪟 🐧 Windows and Linux: faster editor and lower idle CPU · STM32
+Blank project with a typed chip, ST-Link driver link · welcome tour and editor tips ·
+Windows: file access stays inside the project folder, build and debug tools stop with the
+app even after a crash.
 
 **v0.1.26** — 🪟 🍎 🐧 all three: Windows updates itself from now on (0.1.25 and older
 install 0.1.26 once by hand) · closing the app also stops the local server and any build or
